@@ -1,0 +1,15 @@
+{
+  "punica_available": false,
+  "our_results": {
+    "llama": {
+      "our_fused_ms": 3.998
+    },
+    "deepseek": {
+      "our_fused_ms": 3.349
+    },
+    "gemma": {
+      "our_fused_ms": 3.355
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER"
+}

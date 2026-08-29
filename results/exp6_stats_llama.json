@@ -1,0 +1,218 @@
+[
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 4,
+    "n_runs": 3,
+    "seq_mean": 1.1091,
+    "seq_std": 0.0027,
+    "fused_mean": 0.5749,
+    "fused_std": 0.0033,
+    "pad_mean": 0.741,
+    "pad_std": 0.008,
+    "split_mean": 0.7045,
+    "split_std": 0.0319,
+    "c1_speedup": 1.929,
+    "c2_speedup": 1.052,
+    "seq_runs": [
+      1.1056,
+      1.1098,
+      1.1121
+    ],
+    "fused_runs": [
+      0.5795,
+      0.5732,
+      0.5721
+    ],
+    "pad_runs": [
+      0.7377,
+      0.7333,
+      0.7521
+    ],
+    "split_runs": [
+      0.7496,
+      0.6837,
+      0.6802
+    ]
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 8,
+    "n_runs": 3,
+    "seq_mean": 2.2063,
+    "seq_std": 0.0201,
+    "fused_mean": 1.0759,
+    "fused_std": 0.0033,
+    "pad_mean": 1.4355,
+    "pad_std": 0.0465,
+    "split_mean": 1.2396,
+    "split_std": 0.0185,
+    "c1_speedup": 2.051,
+    "c2_speedup": 1.158,
+    "seq_runs": [
+      2.1858,
+      2.1995,
+      2.2337
+    ],
+    "fused_runs": [
+      1.0712,
+      1.0781,
+      1.0783
+    ],
+    "pad_runs": [
+      1.5011,
+      1.3998,
+      1.4057
+    ],
+    "split_runs": [
+      1.2149,
+      1.2592,
+      1.2447
+    ]
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 16,
+    "n_runs": 3,
+    "seq_mean": 4.3663,
+    "seq_std": 0.0574,
+    "fused_mean": 2.0785,
+    "fused_std": 0.0294,
+    "pad_mean": 2.6137,
+    "pad_std": 0.0292,
+    "split_mean": 2.3208,
+    "split_std": 0.0295,
+    "c1_speedup": 2.101,
+    "c2_speedup": 1.126,
+    "seq_runs": [
+      4.4421,
+      4.3534,
+      4.3034
+    ],
+    "fused_runs": [
+      2.1108,
+      2.085,
+      2.0396
+    ],
+    "pad_runs": [
+      2.5929,
+      2.6551,
+      2.5932
+    ],
+    "split_runs": [
+      2.3019,
+      2.3626,
+      2.2981
+    ]
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 32,
+    "n_runs": 3,
+    "seq_mean": 8.628,
+    "seq_std": 0.1358,
+    "fused_mean": 3.9842,
+    "fused_std": 0.0056,
+    "pad_mean": 4.953,
+    "pad_std": 0.0022,
+    "split_mean": 4.4078,
+    "split_std": 0.016,
+    "c1_speedup": 2.166,
+    "c2_speedup": 1.124,
+    "seq_runs": [
+      8.5388,
+      8.8199,
+      8.5253
+    ],
+    "fused_runs": [
+      3.9857,
+      3.9902,
+      3.9767
+    ],
+    "pad_runs": [
+      4.956,
+      4.9521,
+      4.9508
+    ],
+    "split_runs": [
+      4.4057,
+      4.4283,
+      4.3893
+    ]
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 64,
+    "n_runs": 3,
+    "seq_mean": 21.0927,
+    "seq_std": 5.8191,
+    "fused_mean": 10.0389,
+    "fused_std": 3.1346,
+    "pad_mean": 12.1248,
+    "pad_std": 3.3348,
+    "split_mean": 12.8073,
+    "split_std": 3.017,
+    "c1_speedup": 2.101,
+    "c2_speedup": 0.947,
+    "seq_runs": [
+      16.9742,
+      16.9817,
+      29.3222
+    ],
+    "fused_runs": [
+      7.8214,
+      7.8234,
+      14.4719
+    ],
+    "pad_runs": [
+      9.7664,
+      9.7671,
+      16.841
+    ],
+    "split_runs": [
+      8.551,
+      14.6774,
+      15.1935
+    ]
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 128,
+    "n_runs": 3,
+    "seq_mean": 41.2764,
+    "seq_std": 9.9665,
+    "fused_mean": 19.8382,
+    "fused_std": 5.7518,
+    "pad_mean": 24.3437,
+    "pad_std": 6.3464,
+    "split_mean": 18.8593,
+    "split_std": 2.8461,
+    "c1_speedup": 2.081,
+    "c2_speedup": 1.291,
+    "seq_runs": [
+      55.3711,
+      34.23,
+      34.228
+    ],
+    "fused_runs": [
+      27.9724,
+      15.7803,
+      15.7618
+    ],
+    "pad_runs": [
+      33.3161,
+      19.6639,
+      20.051
+    ],
+    "split_runs": [
+      22.8843,
+      16.8609,
+      16.8327
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "contribution": "C3_quality_rank",
+      "task": "sst2",
+      "base": "roberta-base",
+      "lora_rank": 4,
+      "acc_mean": 0.9178,
+      "acc_std": 0.006,
+      "acc_runs": [
+        0.9209,
+        0.9094,
+        0.9232
+      ],
+      "trainable_params": 739586
+    },
+    {
+      "contribution": "C3_quality_rank",
+      "task": "sst2",
+      "base": "roberta-base",
+      "lora_rank": 8,
+      "acc_mean": 0.9193,
+      "acc_std": 0.0042,
+      "acc_runs": [
+        0.9243,
+        0.914,
+        0.9197
+      ],
+      "trainable_params": 887042
+    },
+    {
+      "contribution": "C3_quality_rank",
+      "task": "sst2",
+      "base": "roberta-base",
+      "lora_rank": 16,
+      "acc_mean": 0.9216,
+      "acc_std": 0.0029,
+      "acc_runs": [
+        0.9255,
+        0.9209,
+        0.9186
+      ],
+      "trainable_params": 1181954
+    },
+    {
+      "contribution": "C3_quality_rank",
+      "task": "sst2",
+      "base": "roberta-base",
+      "lora_rank": 32,
+      "acc_mean": 0.9098,
+      "acc_std": 0.0066,
+      "acc_runs": [
+        0.9025,
+        0.9083,
+        0.9186
+      ],
+      "trainable_params": 1771778
+    },
+    {
+      "contribution": "C3_quality_rank",
+      "task": "sst2",
+      "base": "roberta-base",
+      "lora_rank": 64,
+      "acc_mean": 0.9159,
+      "acc_std": 0.003,
+      "acc_runs": [
+        0.9174,
+        0.9117,
+        0.9186
+      ],
+      "trainable_params": 2951426
+    },
+    {
+      "contribution": "C3_quality_rank",
+      "task": "sst2",
+      "base": "roberta-base",
+      "lora_rank": 128,
+      "acc_mean": 0.9201,
+      "acc_std": 0.0084,
+      "acc_runs": [
+        0.9255,
+        0.9083,
+        0.9266
+      ],
+      "trainable_params": 5310722
+    }
+  ],
+  "best_acc": 0.9216,
+  "accuracy_knee": 4,
+  "seeds": [
+    42,
+    43,
+    44
+  ]
+}

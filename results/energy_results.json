@@ -1,0 +1,182 @@
+[
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 4,
+    "energy_seq_mJ": 12.8135,
+    "energy_fused_mJ": 6.0511,
+    "energy_saving_pct": 52.8,
+    "avg_power_seq_W": 41.6,
+    "avg_power_fused_W": 41.6
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 8,
+    "energy_seq_mJ": 13.627,
+    "energy_fused_mJ": 16.9118,
+    "energy_saving_pct": -24.1,
+    "avg_power_seq_W": 48.1,
+    "avg_power_fused_W": 121.8
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 16,
+    "energy_seq_mJ": 23.1739,
+    "energy_fused_mJ": 23.7458,
+    "energy_saving_pct": -2.5,
+    "avg_power_seq_W": 83.3,
+    "avg_power_fused_W": 179.4
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 32,
+    "energy_seq_mJ": 40.1521,
+    "energy_fused_mJ": 29.3202,
+    "energy_saving_pct": 27.0,
+    "avg_power_seq_W": 143.4,
+    "avg_power_fused_W": 225.8
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 64,
+    "energy_seq_mJ": 52.3422,
+    "energy_fused_mJ": 31.1571,
+    "energy_saving_pct": 40.5,
+    "avg_power_seq_W": 189.7,
+    "avg_power_fused_W": 245.5
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 128,
+    "energy_seq_mJ": 310.8707,
+    "energy_fused_mJ": 32.0275,
+    "energy_saving_pct": 89.7,
+    "avg_power_seq_W": 85.2,
+    "avg_power_fused_W": 196.0
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 4,
+    "energy_seq_mJ": 9.501,
+    "energy_fused_mJ": 6.1581,
+    "energy_saving_pct": 35.2,
+    "avg_power_seq_W": 40.0,
+    "avg_power_fused_W": 53.9
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 8,
+    "energy_seq_mJ": 10.0189,
+    "energy_fused_mJ": 12.5613,
+    "energy_saving_pct": -25.4,
+    "avg_power_seq_W": 42.4,
+    "avg_power_fused_W": 112.0
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 16,
+    "energy_seq_mJ": 18.1502,
+    "energy_fused_mJ": 17.5698,
+    "energy_saving_pct": 3.2,
+    "avg_power_seq_W": 75.7,
+    "avg_power_fused_W": 157.0
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 32,
+    "energy_seq_mJ": 30.6694,
+    "energy_fused_mJ": 23.7033,
+    "energy_saving_pct": 22.7,
+    "avg_power_seq_W": 132.5,
+    "avg_power_fused_W": 224.3
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 64,
+    "energy_seq_mJ": 43.0271,
+    "energy_fused_mJ": 25.8721,
+    "energy_saving_pct": 39.9,
+    "avg_power_seq_W": 176.3,
+    "avg_power_fused_W": 236.8
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 128,
+    "energy_seq_mJ": 131.5195,
+    "energy_fused_mJ": 24.5007,
+    "energy_saving_pct": 81.4,
+    "avg_power_seq_W": 99.7,
+    "avg_power_fused_W": 224.4
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 4,
+    "energy_seq_mJ": 5.4234,
+    "energy_fused_mJ": 9.4442,
+    "energy_saving_pct": -74.1,
+    "avg_power_seq_W": 21.7,
+    "avg_power_fused_W": 78.8
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 8,
+    "energy_seq_mJ": 7.4947,
+    "energy_fused_mJ": 10.7759,
+    "energy_saving_pct": -43.8,
+    "avg_power_seq_W": 30.8,
+    "avg_power_fused_W": 92.9
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 16,
+    "energy_seq_mJ": 16.4121,
+    "energy_fused_mJ": 18.675,
+    "energy_saving_pct": -13.8,
+    "avg_power_seq_W": 68.7,
+    "avg_power_fused_W": 166.4
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 32,
+    "energy_seq_mJ": 30.2485,
+    "energy_fused_mJ": 24.0656,
+    "energy_saving_pct": 20.4,
+    "avg_power_seq_W": 127.9,
+    "avg_power_fused_W": 221.9
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 64,
+    "energy_seq_mJ": 43.2337,
+    "energy_fused_mJ": 25.682,
+    "energy_saving_pct": 40.6,
+    "avg_power_seq_W": 178.5,
+    "avg_power_fused_W": 238.9
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 128,
+    "energy_seq_mJ": 720.4265,
+    "energy_fused_mJ": 275.1569,
+    "energy_saving_pct": 61.8,
+    "avg_power_seq_W": 74.9,
+    "avg_power_fused_W": 71.7
+  }
+]

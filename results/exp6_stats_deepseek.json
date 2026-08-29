@@ -1,0 +1,218 @@
+[
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 4,
+    "n_runs": 3,
+    "seq_mean": 0.967,
+    "seq_std": 0.0124,
+    "fused_mean": 0.4635,
+    "fused_std": 0.0068,
+    "pad_mean": 0.6881,
+    "pad_std": 0.0763,
+    "split_mean": 0.5871,
+    "split_std": 0.0153,
+    "c1_speedup": 2.086,
+    "c2_speedup": 1.172,
+    "seq_runs": [
+      0.9506,
+      0.9804,
+      0.97
+    ],
+    "fused_runs": [
+      0.473,
+      0.4582,
+      0.4592
+    ],
+    "pad_runs": [
+      0.7961,
+      0.6339,
+      0.6345
+    ],
+    "split_runs": [
+      0.6087,
+      0.575,
+      0.5777
+    ]
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 8,
+    "n_runs": 3,
+    "seq_mean": 1.9033,
+    "seq_std": 0.0017,
+    "fused_mean": 0.9053,
+    "fused_std": 0.0086,
+    "pad_mean": 1.2617,
+    "pad_std": 0.0076,
+    "split_mean": 1.0363,
+    "split_std": 0.0047,
+    "c1_speedup": 2.102,
+    "c2_speedup": 1.218,
+    "seq_runs": [
+      1.9036,
+      1.9052,
+      1.9011
+    ],
+    "fused_runs": [
+      0.9002,
+      0.9174,
+      0.8981
+    ],
+    "pad_runs": [
+      1.2583,
+      1.2546,
+      1.2722
+    ],
+    "split_runs": [
+      1.0407,
+      1.0385,
+      1.0298
+    ]
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 16,
+    "n_runs": 3,
+    "seq_mean": 3.6946,
+    "seq_std": 0.0009,
+    "fused_mean": 1.7767,
+    "fused_std": 0.0007,
+    "pad_mean": 2.3422,
+    "pad_std": 0.0375,
+    "split_mean": 2.0081,
+    "split_std": 0.011,
+    "c1_speedup": 2.079,
+    "c2_speedup": 1.166,
+    "seq_runs": [
+      3.6937,
+      3.6944,
+      3.6958
+    ],
+    "fused_runs": [
+      1.7767,
+      1.7758,
+      1.7776
+    ],
+    "pad_runs": [
+      2.3881,
+      2.2962,
+      2.3424
+    ],
+    "split_runs": [
+      2.0113,
+      1.9934,
+      2.0196
+    ]
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 32,
+    "n_runs": 3,
+    "seq_mean": 7.3962,
+    "seq_std": 0.0585,
+    "fused_mean": 3.4924,
+    "fused_std": 0.0366,
+    "pad_mean": 4.4756,
+    "pad_std": 0.0112,
+    "split_mean": 3.899,
+    "split_std": 0.0197,
+    "c1_speedup": 2.118,
+    "c2_speedup": 1.148,
+    "seq_runs": [
+      7.3236,
+      7.398,
+      7.467
+    ],
+    "fused_runs": [
+      3.4645,
+      3.4687,
+      3.5441
+    ],
+    "pad_runs": [
+      4.4902,
+      4.4734,
+      4.4631
+    ],
+    "split_runs": [
+      3.8876,
+      3.9268,
+      3.8826
+    ]
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 64,
+    "n_runs": 3,
+    "seq_mean": 14.6781,
+    "seq_std": 0.0945,
+    "fused_mean": 6.8555,
+    "fused_std": 0.0293,
+    "pad_mean": 8.8469,
+    "pad_std": 0.0598,
+    "split_mean": 7.4782,
+    "split_std": 0.0167,
+    "c1_speedup": 2.141,
+    "c2_speedup": 1.183,
+    "seq_runs": [
+      14.7875,
+      14.557,
+      14.6898
+    ],
+    "fused_runs": [
+      6.8964,
+      6.8294,
+      6.8406
+    ],
+    "pad_runs": [
+      8.9101,
+      8.8641,
+      8.7665
+    ],
+    "split_runs": [
+      7.4693,
+      7.5015,
+      7.4637
+    ]
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 128,
+    "n_runs": 3,
+    "seq_mean": 29.2076,
+    "seq_std": 0.0807,
+    "fused_mean": 13.8703,
+    "fused_std": 0.2375,
+    "pad_mean": 17.6335,
+    "pad_std": 0.0132,
+    "split_mean": 14.9,
+    "split_std": 0.0996,
+    "c1_speedup": 2.106,
+    "c2_speedup": 1.183,
+    "seq_runs": [
+      29.1182,
+      29.3138,
+      29.1909
+    ],
+    "fused_runs": [
+      13.7051,
+      13.6996,
+      14.2061
+    ],
+    "pad_runs": [
+      17.6148,
+      17.6443,
+      17.6413
+    ],
+    "split_runs": [
+      14.828,
+      14.831,
+      15.0409
+    ]
+  }
+]

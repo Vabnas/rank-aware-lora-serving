@@ -1,0 +1,182 @@
+[
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 4,
+    "bytes_moved": 269484032,
+    "achieved_bw_GBs": 416.8,
+    "bw_utilization_pct": 56.6,
+    "arithmetic_intensity": 7.969,
+    "time_ms": 0.6466
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 8,
+    "bytes_moved": 538968064,
+    "achieved_bw_GBs": 495.6,
+    "bw_utilization_pct": 67.3,
+    "arithmetic_intensity": 7.969,
+    "time_ms": 1.0875
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 16,
+    "bytes_moved": 1077936128,
+    "achieved_bw_GBs": 519.4,
+    "bw_utilization_pct": 70.6,
+    "arithmetic_intensity": 7.969,
+    "time_ms": 2.0755
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 32,
+    "bytes_moved": 2155872256,
+    "achieved_bw_GBs": 535.1,
+    "bw_utilization_pct": 72.7,
+    "arithmetic_intensity": 7.969,
+    "time_ms": 4.0286
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 64,
+    "bytes_moved": 4311744512,
+    "achieved_bw_GBs": 546.2,
+    "bw_utilization_pct": 74.2,
+    "arithmetic_intensity": 7.969,
+    "time_ms": 7.8941
+  },
+  {
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "num_tenants": 128,
+    "bytes_moved": 8623489024,
+    "achieved_bw_GBs": 542.1,
+    "bw_utilization_pct": 73.7,
+    "arithmetic_intensity": 7.969,
+    "time_ms": 15.9065
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 4,
+    "bytes_moved": 235864064,
+    "achieved_bw_GBs": 507.4,
+    "bw_utilization_pct": 68.9,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 0.4649
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 8,
+    "bytes_moved": 471728128,
+    "achieved_bw_GBs": 513.9,
+    "bw_utilization_pct": 69.8,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 0.918
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 16,
+    "bytes_moved": 943456256,
+    "achieved_bw_GBs": 535.0,
+    "bw_utilization_pct": 72.7,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 1.7633
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 32,
+    "bytes_moved": 1886912512,
+    "achieved_bw_GBs": 552.9,
+    "bw_utilization_pct": 75.1,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 3.4125
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 64,
+    "bytes_moved": 3773825024,
+    "achieved_bw_GBs": 569.5,
+    "bw_utilization_pct": 77.4,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 6.6261
+  },
+  {
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "num_tenants": 128,
+    "bytes_moved": 7547650048,
+    "achieved_bw_GBs": 565.0,
+    "bw_utilization_pct": 76.8,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 13.3575
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 4,
+    "bytes_moved": 235864064,
+    "achieved_bw_GBs": 517.8,
+    "bw_utilization_pct": 70.4,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 0.4555
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 8,
+    "bytes_moved": 471728128,
+    "achieved_bw_GBs": 524.2,
+    "bw_utilization_pct": 71.2,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 0.8999
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 16,
+    "bytes_moved": 943456256,
+    "achieved_bw_GBs": 541.5,
+    "bw_utilization_pct": 73.6,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 1.7424
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 32,
+    "bytes_moved": 1886912512,
+    "achieved_bw_GBs": 537.7,
+    "bw_utilization_pct": 73.1,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 3.5089
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 64,
+    "bytes_moved": 3773825024,
+    "achieved_bw_GBs": 565.2,
+    "bw_utilization_pct": 76.8,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 6.6774
+  },
+  {
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "num_tenants": 128,
+    "bytes_moved": 7547650048,
+    "achieved_bw_GBs": 559.9,
+    "bw_utilization_pct": 76.1,
+    "arithmetic_intensity": 7.967,
+    "time_ms": 13.4804
+  }
+]

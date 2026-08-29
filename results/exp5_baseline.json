@@ -1,0 +1,200 @@
+[
+  {
+    "contribution": "baseline",
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "company": "Meta",
+    "num_tenants": 4,
+    "lora_rank": 8,
+    "total_ms": 1.102,
+    "per_tenant_ms": 0.2755,
+    "vram_gb": 5.75
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "company": "Meta",
+    "num_tenants": 8,
+    "lora_rank": 8,
+    "total_ms": 2.224,
+    "per_tenant_ms": 0.2781,
+    "vram_gb": 5.75
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "company": "Meta",
+    "num_tenants": 16,
+    "lora_rank": 8,
+    "total_ms": 4.366,
+    "per_tenant_ms": 0.2729,
+    "vram_gb": 5.75
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "company": "Meta",
+    "num_tenants": 32,
+    "lora_rank": 8,
+    "total_ms": 8.616,
+    "per_tenant_ms": 0.2692,
+    "vram_gb": 5.75
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "company": "Meta",
+    "num_tenants": 64,
+    "lora_rank": 8,
+    "total_ms": 17.112,
+    "per_tenant_ms": 0.2674,
+    "vram_gb": 5.76
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "llama",
+    "model": "Llama 3 8B",
+    "company": "Meta",
+    "num_tenants": 128,
+    "lora_rank": 8,
+    "total_ms": 34.519,
+    "per_tenant_ms": 0.2697,
+    "vram_gb": 5.77
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 4,
+    "lora_rank": 8,
+    "total_ms": 0.954,
+    "per_tenant_ms": 0.2386,
+    "vram_gb": 8.01
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 8,
+    "lora_rank": 8,
+    "total_ms": 1.87,
+    "per_tenant_ms": 0.2338,
+    "vram_gb": 8.01
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 16,
+    "lora_rank": 8,
+    "total_ms": 3.689,
+    "per_tenant_ms": 0.2305,
+    "vram_gb": 8.01
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 32,
+    "lora_rank": 8,
+    "total_ms": 7.299,
+    "per_tenant_ms": 0.2281,
+    "vram_gb": 8.01
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 64,
+    "lora_rank": 8,
+    "total_ms": 14.525,
+    "per_tenant_ms": 0.227,
+    "vram_gb": 8.01
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 128,
+    "lora_rank": 8,
+    "total_ms": 32.497,
+    "per_tenant_ms": 0.2539,
+    "vram_gb": 8.02
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "company": "DeepSeek",
+    "num_tenants": 4,
+    "lora_rank": 8,
+    "total_ms": 0.95,
+    "per_tenant_ms": 0.2374,
+    "vram_gb": 5.6
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "company": "DeepSeek",
+    "num_tenants": 8,
+    "lora_rank": 8,
+    "total_ms": 1.869,
+    "per_tenant_ms": 0.2336,
+    "vram_gb": 5.6
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "company": "DeepSeek",
+    "num_tenants": 16,
+    "lora_rank": 8,
+    "total_ms": 3.681,
+    "per_tenant_ms": 0.2301,
+    "vram_gb": 5.6
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "company": "DeepSeek",
+    "num_tenants": 32,
+    "lora_rank": 8,
+    "total_ms": 7.313,
+    "per_tenant_ms": 0.2285,
+    "vram_gb": 5.6
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "company": "DeepSeek",
+    "num_tenants": 64,
+    "lora_rank": 8,
+    "total_ms": 14.502,
+    "per_tenant_ms": 0.2266,
+    "vram_gb": 5.6
+  },
+  {
+    "contribution": "baseline",
+    "model_key": "deepseek",
+    "model": "DeepSeek-R1-Distill-Qwen-7B",
+    "company": "DeepSeek",
+    "num_tenants": 128,
+    "lora_rank": 8,
+    "total_ms": 29.168,
+    "per_tenant_ms": 0.2279,
+    "vram_gb": 5.61
+  }
+]

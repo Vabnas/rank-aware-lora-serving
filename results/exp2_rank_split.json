@@ -1,0 +1,74 @@
+[
+  {
+    "contribution": "C2_rank_split",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 4,
+    "n_high_rank": 1,
+    "pad_and_fuse_ms": 0.581,
+    "rank_split_ms": 0.54,
+    "speedup": 1.07,
+    "vram_gb": 0.01
+  },
+  {
+    "contribution": "C2_rank_split",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 8,
+    "n_high_rank": 2,
+    "pad_and_fuse_ms": 1.146,
+    "rank_split_ms": 0.999,
+    "speedup": 1.15,
+    "vram_gb": 0.01
+  },
+  {
+    "contribution": "C2_rank_split",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 16,
+    "n_high_rank": 4,
+    "pad_and_fuse_ms": 2.143,
+    "rank_split_ms": 1.906,
+    "speedup": 1.12,
+    "vram_gb": 0.01
+  },
+  {
+    "contribution": "C2_rank_split",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 32,
+    "n_high_rank": 8,
+    "pad_and_fuse_ms": 4.195,
+    "rank_split_ms": 3.688,
+    "speedup": 1.14,
+    "vram_gb": 0.01
+  },
+  {
+    "contribution": "C2_rank_split",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 64,
+    "n_high_rank": 16,
+    "pad_and_fuse_ms": 8.156,
+    "rank_split_ms": 7.136,
+    "speedup": 1.14,
+    "vram_gb": 0.01
+  },
+  {
+    "contribution": "C2_rank_split",
+    "model_key": "gemma",
+    "model": "Gemma 2 9B",
+    "company": "Google",
+    "num_tenants": 128,
+    "n_high_rank": 32,
+    "pad_and_fuse_ms": 16.68,
+    "rank_split_ms": 14.196,
+    "speedup": 1.17,
+    "vram_gb": 0.01
+  }
+]
